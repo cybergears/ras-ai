@@ -218,8 +218,9 @@ class HardcoreWindow(QWidget):
         )
         self.powered_label.setObjectName("footerLabel")
         self.powered_label.setOpenExternalLinks(False)
-        self.powered_label.linkActivated.connect(self.open_website)
-
+        self.powered_label.linkActivated.connect(
+            lambda _: self.open_website()
+        )
         footer_layout.addWidget(self.version_label)
         footer_layout.addStretch()
         footer_layout.addWidget(self.powered_label)

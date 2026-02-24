@@ -1,4 +1,7 @@
 # R.A.S – Rider Assist System
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![CUDA](https://img.shields.io/badge/GPU-CUDA-green)
 
 AI-powered motorcycle video intelligence overlay for content creators.
 
